@@ -1,0 +1,55 @@
+
+.formcontainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+label{
+    display: block;
+}
+form{
+    margin:0 auto;
+width: fit-content;
+margin-top: 100px;
+
+}
+
+.formcontainer input,select,textarea{
+    border: 0;
+    background-color: #ffe4c4;
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px;
+}
+
+textarea{
+height: auto;
+}
+.check{
+    margin-top: 10px;
+
+}
+.check input{
+margin:0;
+margin-right:3px;
+    width: fit-content;
+    /* height: fit-content; */
+}
+.formcontainer label{
+    margin-top: 20px;
+}
+button{
+ 
+ margin-top: 10px;
+ width: 30%;
+ border: 0;
+    
+    border-radius: 5px;
+    padding: 10px;
+    background-color: tan;
+}
+
+button:hover{
+        background-color: #ffe1c4;
+}
